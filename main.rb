@@ -3,8 +3,10 @@ puts "Hi! yoshito!!"
 
 
 omikuji = ["大吉", "中吉", "小吉", "凶", "末吉"]
-
 puts omikuji.sample
+# add_kazuchika
+names = ["田中","鈴木","山本"]
+puts names.join("と")
 
 # 流れ
 # 1. 新しくブランチをつくる
