@@ -9,8 +9,8 @@ names = ["田中","鈴木","山本"]
 puts names.join("と")
 # add_yamamoto
 yamamoto = {name: "山本", age: 32, hobby: "バスケットボール"}
-yamamoto.each do |data|
-	puts "#{data[0]}: #{data[1]}"
+yamamoto.each do |key, value|
+	puts "#{key}: #{value}"
 end
 
 # 流れ
