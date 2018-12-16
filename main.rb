@@ -7,6 +7,11 @@ puts omikuji.sample
 # add_kazuchika
 names = ["田中","鈴木","山本"]
 puts names.join("と")
+# add_yamamoto
+yamamoto = {name: "山本", age: 32, hobby: "バスケットボール"}
+yamamoto.each do |key, value|
+	puts "#{key}: #{value}"
+end
 
 # 流れ
 # 1. 新しくブランチをつくる
